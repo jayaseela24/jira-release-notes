@@ -5,7 +5,8 @@ name: Test Action
 
 on:
   push:
-    branches: [ master]
+    branches:
+           - master
 
 jobs:
   release-notes:
